@@ -6,4 +6,4 @@
 * War and Society
 
 ## Interesting Website
-[American Revolution] (https://en.wikipedia.org/wiki/American_Revolution) 
+[American Revolution](www.google.com) 
