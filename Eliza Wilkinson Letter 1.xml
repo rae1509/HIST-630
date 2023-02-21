@@ -6,15 +6,46 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Letter I of Eliza Wilkinson, during the invasion and possession of Charleston, S.C., by the British in the Revolutionary War</title>
+            <author>Eliza Yonge Wilkinson</author>
+            <editor>Caroline Howard Gilman</editor>
+            <respStmt>
+               <resp>encoded by</resp>
+               <name>Regan Murr</name>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Digital Methods for Historical Research, Spring 2023</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+           <bibl>
+              <title>Letters of Eliza Wilkinson, during the invasion and possession of Charleston, S.C., by the British in the Revolutionary War</title>
+              <author>
+               <name>
+                  <forename>Eliza</forename> 
+                  <name type="maiden">Yonge</name>
+                  <surname>Wilkinson</surname>
+               </name>              
+              </author>
+              <editor>
+                 <name>
+                    Caroline Howard Gilman
+                 </name>
+              </editor>
+              <publisher>S. Colman</publisher>
+              <pubPlace>New York</pubPlace>
+              <date>1839</date>
+              <availability>
+                 <p>Text derived and available from Internet Archive: https://archive.org/details/lettersofelizawi00wilk/page/20/mode/2up</p>
+              </availability>
+           </bibl>
          </sourceDesc>
       </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>This text represents the first letter written in Caroline Gilman's compilation of Eliza Wilkinson's letters during the American Revolution. It details Wilkinson's experiences as the British attacked South Carolina and laid siege to Charleston in 1780. </p>
+        </projectDesc>
+     </encodingDesc>
   </teiHeader>
   <text>
        <body>
@@ -23,23 +54,26 @@
             woman announces the approach of the enemy within 
                <placeName>
                   <offset>five miles of </offset>
-                  Yonge's Island. </placeName>
+                  Yonge's Island. 
+               </placeName>
             Terror of the women. 
                <persName>
-                  <roleName type="honorific"> Mrs.</roleName> 
-                  <surname>Wilkinson</surname>
+                   Mrs. Wilkinson
                </persName> 
             goes to 
                <placeName>
                   <settlement type="island">Wadmalaw</settlement>
-               </placeName>. Distress at leaving her old father. Meets 
+               </placeName>
+            . Distress at leaving her old father. Meets 
             a boat-load of fugitive women and children on their way to 
                <placeName>
                   <settlement type="city">Charles-town,</settlement>
                </placeName>
             </head>
              <opener>
-                <salute>To Miss M P.</salute> 
+                <salute>To 
+                  <persName>Miss M P.</persName>               
+                </salute> 
                 <dateline>
                    <placeName>Yonge's Island,</placeName> 
                    <date>1782.</date>
@@ -50,7 +84,9 @@
                 the ever-memorable 
                 <date>year 1779,</date>
                 I shall transmit you a 
-                brief account of their <emph rend="italic">polite</emph> behavior to my Father and 
+                brief account of their <emph rend="italic">polite</emph> behavior to my 
+                <persName>Father</persName> 
+                and 
                 family, where you will find me sufficiently punished for 
                 being something of an unbeliever heretofore. You 
                 know we had always heard most terrible accounts of 
@@ -141,7 +177,9 @@
                 her day of suffering in sympathy with her sister States. 
                 Oh, how I dreaded the approaching enemy! I had 
                 thoughts (with my other friends,) to go higher up the 
-                country to avoid them; but as my Father, with many 
+                country to avoid them; but as my 
+                <persName>Father</persName>
+                , with many 
                 others of my relations, had not conveniences ready to car- 
                 ry off their effects with them, and as the enemy aproach- 
                 ed rapidly, they agreed to stay. It was a melancholy 
@@ -149,41 +187,56 @@
                 weeping for husbands, brothers, or other near relations 
                 and friends, who were they knew not where, whether 
                 dead or alive. When the enemy were at 
-                <placeName><!--Ashepoo-->,</placeName> 
+                <placeName>
+                   <district type="plantation">Ashepoo,</district>
+                </placeName> 
                 or 
-                somewhere thereabouts, my sister and sister-in-law were 
-                then at my Father's, when one Sunday morning a negro 
+                somewhere thereabouts, 
+                <persName>my sister</persName> 
+                and 
+                <persName>sister-in-law </persName>
+                were 
+                then at my 
+                <persName>Father's</persName>
+                , when one Sunday morning a negro 
                 wench, who had been out visiting, came running home 
                 in a violent hurry, informing us that a party of British 
                 horse were then at 
-                <persName><!--Mr. W.'s,--></persName> 
+                <persName> Mr. W.'s,</persName> 
                 not above five or six miles 
                 from us. </p>
              <p>A boy on the road had informed our servant of the 
                 approach of the enemy. This created such confusion 
                 and distress among us all as I cannot describe. A boat 
-                was immediately pushed off. My sister 
+                was immediately pushed off. 
                 <persName>
-                   <surname>Yonge</surname>
+                   My sister 
+                   <surname>Yonge</surname> 
                 </persName>
-                , my sis- 
-                ter 
-                <persName>
-                  <surname> Smilie,</surname> 
+                <persName> 
+                   , my sis-ter 
+                   <surname> Smilie,</surname> 
                 </persName>
                 and myself, were desirous of putting the evil 
                 day afar off; so we went over the river to 
                 <persName>
-                   <roleName type="honorific">Mr. </roleName>
-                   <surname>Smilie's. </surname>
+                   <addName type="honorific">Mr. </addName>
+                   <surname>Smilie's.</surname>
                 </persName>
-                Father and Mother ventured to stay at home. Melan- 
+                <persName>Father</persName> 
+                and 
+                <persName>Mother</persName> 
+                ventured to stay at home. Melan- 
                 choly were the adieus on both sides. We had got but a 
                 small distance from the house when we met another lady, 
                 who, upon receiving the like information, had walked 
-                about two miles, (if not more,) to Father's. She joined us 
+                about two miles, (if not more,) to 
+                <persName>Father's</persName>. 
+                She joined us 
                 and away we went, often looking back, with watery 
-                eyes, to our Father's dwelling, thinking, at the same time, 
+                eyes, to our 
+                <persName>Father's</persName> 
+                dwelling, thinking, at the same time, 
                 that in all probability, even while we were looking, he 
                 might be suffering all the insults and cruelties that a 
                 remorseless gang of barbarians could inflict. These 
@@ -201,7 +254,7 @@
                 as that place promised more safety than 
                 any other. They called at 
                 <persName>
-                   <roleName type="honorific">Mr.</roleName>
+                   <addName type="honorific">Mr.</addName>
                    <surname>Smilie's</surname>
                 </persName>
                 , and staid a day 
