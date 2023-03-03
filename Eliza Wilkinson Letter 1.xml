@@ -91,7 +91,7 @@
                 being something of an unbeliever heretofore. You 
                 know we had always heard most terrible accounts of 
                 the actions of the 
-                <orgName type="military">British troops</orgName>
+                <orgName type="military" ref="#org001">British troops</orgName>
                 at the northward; 
                 but, (fool that I was,) I thought they must be exaggerat- 
                 ed, for I could not believe that a nation so famed for 
@@ -139,10 +139,10 @@
                 party of them had landed somewhere 
                <placeName>
                   <offset>near</offset> 
-                  <settlement type="city">Beaufort.</settlement>
+                  <settlement type="city" ref="#place005">Beaufort.</settlement>
                </placeName> 
                 I saw several detachments of our
-                <orgName type="military">Southern troops</orgName> 
+                <orgName type="military" ref="#org002">Southern troops</orgName> 
                 leave 
                 town to oppose the invaders of their country. They 
                 marched with the greatest alacrity imaginable, not re- 
@@ -188,7 +188,7 @@
                 and friends, who were they knew not where, whether 
                 dead or alive. When the enemy were at 
                 <placeName>
-                   <district type="plantation">Ashepoo,</district>
+                   <district type="plantation" ref="#person006">Ashepoo,</district>
                 </placeName> 
                 or 
                 somewhere thereabouts, 
