@@ -52,30 +52,30 @@
           <div type="letter">
             <head>Introductory remarks. British outrages at the North. A Negro 
             woman announces the approach of the enemy within 
-               <placeName>
+               <placeName ref="#placename001">
                   <offset>five miles of </offset>
                   Yonge's Island. 
                </placeName>
             Terror of the women. 
-               <persName>
+               <persName ref="#person001">
                    Mrs. Wilkinson
                </persName> 
             goes to 
                <placeName>
-                  <settlement type="island">Wadmalaw</settlement>
+                  <settlement type="island" ref="#place002">Wadmalaw</settlement>
                </placeName>
             . Distress at leaving her old father. Meets 
             a boat-load of fugitive women and children on their way to 
                <placeName>
-                  <settlement type="city">Charles-town,</settlement>
+                  <settlement type="city" ref="#place003">Charles-town,</settlement>
                </placeName>
             </head>
              <opener>
                 <salute>To 
-                  <persName>Miss M P.</persName>               
+                  <persName ref="#person002">Miss M P.</persName>               
                 </salute> 
                 <dateline>
-                   <placeName>Yonge's Island,</placeName> 
+                   <placeName ref="#place001">Yonge's Island,</placeName> 
                    <date>1782.</date>
                 </dateline>
              </opener>
@@ -85,7 +85,7 @@
                 <date>year 1779,</date>
                 I shall transmit you a 
                 brief account of their <emph rend="italic">polite</emph> behavior to my 
-                <persName>Father</persName> 
+                <persName ref="#person003">Father</persName> 
                 and 
                 family, where you will find me sufficiently punished for 
                 being something of an unbeliever heretofore. You 
@@ -119,7 +119,7 @@
                 I began to look on the Britons in earnest as enemies.</p>
              <p>At length I heard they had got possession of the 
                 <placeName>
-                   <region type="state">Georgia State</region>
+                   <region type="state" ref="#place004">Georgia State</region>
                 </placeName>
                 , and used the inhabitants cruelly, paying 
                 no respect to age or sex; but then, again, I heard to the 
@@ -133,7 +133,7 @@
                 to burst over our heads.</p>
              <p>I was in 
                <placeName>
-                  <settlement type="city">Charlestown</settlement>
+                  <settlement type="city" ref="#place003">Charlestown</settlement>
                </placeName> 
                 when we heard that a large 
                 party of them had landed somewhere 
@@ -178,7 +178,7 @@
                 Oh, how I dreaded the approaching enemy! I had 
                 thoughts (with my other friends,) to go higher up the 
                 country to avoid them; but as my 
-                <persName>Father</persName>
+                <persName ref="#person003">Father</persName>
                 , with many 
                 others of my relations, had not conveniences ready to car- 
                 ry off their effects with them, and as the enemy aproach- 
@@ -192,12 +192,12 @@
                 </placeName> 
                 or 
                 somewhere thereabouts, 
-                <persName>my sister</persName> 
+                <persName ref="#person004">my sister</persName> 
                 and 
-                <persName>sister-in-law </persName>
+                <persName ref="#person005">sister-in-law</persName>
                 were 
                 then at my 
-                <persName>Father's</persName>
+                <persName ref="#person003">Father's</persName>
                 , when one Sunday morning a negro 
                 wench, who had been out visiting, came running home 
                 in a violent hurry, informing us that a party of British 
@@ -209,33 +209,33 @@
                 approach of the enemy. This created such confusion 
                 and distress among us all as I cannot describe. A boat 
                 was immediately pushed off. 
-                <persName>
+                <persName ref="#person004">
                    My sister 
                    <surname>Yonge</surname> 
                 </persName>
-                <persName> 
+                <persName ref="#person005"> 
                    , my sis-ter 
                    <surname> Smilie,</surname> 
                 </persName>
                 and myself, were desirous of putting the evil 
                 day afar off; so we went over the river to 
-                <persName>
+                <persName ref="#person006">
                    <addName type="honorific">Mr. </addName>
                    <surname>Smilie's.</surname>
                 </persName>
-                <persName>Father</persName> 
+                <persName ref="#person003">Father</persName> 
                 and 
-                <persName>Mother</persName> 
+                <persName ref="#person007">Mother</persName> 
                 ventured to stay at home. Melan- 
                 choly were the adieus on both sides. We had got but a 
                 small distance from the house when we met another lady, 
                 who, upon receiving the like information, had walked 
                 about two miles, (if not more,) to 
-                <persName>Father's</persName>. 
+                <persName ref="#person003">Father's</persName>. 
                 She joined us 
                 and away we went, often looking back, with watery 
                 eyes, to our 
-                <persName>Father's</persName> 
+                <persName ref="#person003">Father's</persName> 
                 dwelling, thinking, at the same time, 
                 that in all probability, even while we were looking, he 
                 might be suffering all the insults and cruelties that a 
@@ -249,11 +249,11 @@
                 ish army could they have seen it. This was a large 
                 boat-load of women and children on their way to 
                 <placeName>
-                   <settlement type="city">Charlestown,</settlement>
+                   <settlement type="city" ref="#place003">Charlestown,</settlement>
                 </placeName> 
                 as that place promised more safety than 
                 any other. They called at 
-                <persName>
+                <persName ref="#person006">
                    <addName type="honorific">Mr.</addName>
                    <surname>Smilie's</surname>
                 </persName>
@@ -275,7 +275,9 @@
                 some time.</p>
              <closer>
                <salute>Once more adieu.</salute>                
-               <signed>Eliza W.</signed>
+               <signed>
+                  <persName ref="#person001">Eliza W.</persName>
+               </signed>
              </closer>
           </div>
       </body>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>My Standoff Markup</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <standOff>
+      <listPerson>
+         <person xml:id="person001">
+           <persName>Mrs. Wilkinson</persName>
+           <persName>Eliza W.</persName>
+           <persName>Eliza Yonge Wilkinson</persName>
+         </person>
+         <person xml:id="person002">
+            <persName>Miss M.P.</persName>
+            <persName>Mary Porcher</persName>
+         </person>
+         <person xml:id="person003">
+            <persName>Francis Yonge</persName>
+            <persName>Father</persName>
+         </person>
+         <person xml:id="person004">
+            <persName>my sister</persName>
+            <persName>My sister Yonge</persName>
+         </person>
+         <person xml:id="person005">
+            <persName>my sister-in-law</persName>
+            <persName>my sister Smilie></persName>
+         </person>
+         <person xml:id="person006">
+            <persName>Mr. Smilie</persName>
+         </person>
+         <person xml:id="person007">
+            <persName>Mother</persName>
+            <persName>Sarah Clifford Yonge</persName>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="place001">
+            <placeName>Yonge's Island</placeName>
+         </place>
+         <place xml:id="place002">
+            <placeName>Wadmalaw</placeName>
+         </place>
+         <place xml:id="place003">
+            <placeName>Charlestown</placeName>
+         </place>  
+         <place xml:id="place004">
+            <placeName>Georgia State</placeName>
+         </place>
+         
+      </listPlace>
+      <listOrg>
+         <org xml:id="org001">
+            
+         </org>
+         <!-- etc.-->
+      </listOrg>
+   </standOff>
+</TEI>
