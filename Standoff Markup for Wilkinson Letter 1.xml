@@ -101,7 +101,7 @@
       <listOrg>
          <org xml:id="org001">
             <orgName>British troops</orgName>
-            <desc>British troops invaded and began a siege of Charleston during the <name type="event">American Revolution</name> in <date>1780</date></desc>        </org>
+            <desc>British troops invaded and began a siege of Charleston during the <name type="event">American Revolution</name> in <date>1780</date></desc>         </org>
          <org xml:id="org002">
             <orgName>Southern troops</orgName>
             <desc><affiliation type="loyalty">Patriot</affiliation> soldiers attempting to defend <settlement type="city">Charleston</settlement> and the surrounding area</desc>
