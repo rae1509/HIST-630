@@ -1,9 +1,9 @@
 xquery version "3.1";
 
-for $book in books/book
+for $book in books/book [fn:contains (title, "Histor")]
 
-    where fn:contains ($book/title, "The")
-    where fn:contains ($book/date, "1984")
+    (:where fn:contains ($book/title, "The")
+    where fn:contains ($book/date, "1984"):)
 
     let $author := $book/author
     let $title := $book/title

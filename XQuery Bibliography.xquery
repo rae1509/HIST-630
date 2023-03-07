@@ -1,5 +1,5 @@
 <books>
-    <book n="1">
+    <book>
         <title>The Great Cat Massacre and Other Epidsodes in French Cultural History</title>
         <author>Robert Darnton</author>
         <date>1984</date>
@@ -10,7 +10,7 @@
         <identifier type= "ISBN-10">0394729277</identifier>
         <identifier type="ISBN-13">978-0465012749</identifier>
     </book>
-    <book n="2">
+    <book>
         <title>The Enemy at the Gate: Hapsburgs, Ottomans, and the Battle for Europe</title>
         <author>Andrew Wheatcroft</author>
         <date>2008</date>
@@ -21,9 +21,9 @@
         <identifier type= "ISBN 10">2008938931</identifier>
         <identifier type= "ISBN-13">978-0465020812</identifier>
     </book>
-    <book n="3">
+    <book>
         <title>The Congress of Vienna and its Legacy</title>
-        <authro>Mark Jarrett</authro>
+        <author>Mark Jarrett</author>
         <date>2013</date>
         <publisher>
             <city>London</city>
@@ -31,7 +31,7 @@
         </publisher>
         <identifier type= "ISBN-13">978-1784530563</identifier>
     </book>
-    <book n="4">
+    <book>
         <title>Warriors Don't Cry</title>
         <author>Melba Patillo Beals</author>
         <date>1994</date>
@@ -42,7 +42,7 @@
         <identifier type= "ISBN-10">0671866397</identifier>
         <identifier type= "ISBN-13">978-0671866396</identifier>
     </book>
-    <book n="5">
+    <book>
         <title>Elecotral Capitalism: The Party System in New York's Gilded Age</title>
         <author>Jeffrey D. Broxmeyer</author>
         <date>2020</date>
