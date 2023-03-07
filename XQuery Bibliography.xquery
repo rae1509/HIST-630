@@ -2,7 +2,7 @@
     <book>
         <title>The Great Cat Massacre and Other Epidsodes in French Cultural History</title>
         <author>Robert Darnton</author>
-        <date>1984</date>
+        <date type="year">1984</date>
         <publisher>
             <city>New York</city>
             <press>Basic Books</press>
@@ -13,7 +13,7 @@
     <book>
         <title>The Enemy at the Gate: Hapsburgs, Ottomans, and the Battle for Europe</title>
         <author>Andrew Wheatcroft</author>
-        <date>2008</date>
+        <date type="year">2008</date>
         <publisher>
             <city>New York</city>
             <press>Basic Books</press>
@@ -24,7 +24,7 @@
     <book>
         <title>The Congress of Vienna and its Legacy</title>
         <author>Mark Jarrett</author>
-        <date>2013</date>
+        <date type="year">2013</date>
         <publisher>
             <city>London</city>
             <press>I.B. Tauris</press>
@@ -34,7 +34,7 @@
     <book>
         <title>Warriors Don't Cry</title>
         <author>Melba Patillo Beals</author>
-        <date>1994</date>
+        <date type="year">1994</date>
         <publisher>
             <city>New York</city>
             <press>Washington Square Press</press>
@@ -45,7 +45,7 @@
     <book>
         <title>Elecotral Capitalism: The Party System in New York's Gilded Age</title>
         <author>Jeffrey D. Broxmeyer</author>
-        <date>2020</date>
+        <date type="year">2020</date>
         <publisher>
             <city>Philadelphia</city>
             <press>University of Pennsylvania Press</press>
