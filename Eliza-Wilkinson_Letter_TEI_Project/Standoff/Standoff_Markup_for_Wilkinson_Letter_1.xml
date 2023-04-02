@@ -6,7 +6,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>My Standoff Markup for Wilkinson Letter 1</title>
+            <title>My Standoff Markup for Eliza Wilkinson Corpus</title>
          </titleStmt>
          <publicationStmt>
             <p>Encoded by
@@ -32,7 +32,7 @@
            <persName>Eliza Yonge Wilkinson</persName>
            <affiliation type="loyalty">Patriot</affiliation>
            <sex value="F">Female</sex>
-           <residence>Yonge's Island</residence>
+           <residence ref="#place001">Yonge's Island</residence>
          </person>
          <person xml:id="person002">
             <persName>Miss M.P.</persName>
@@ -44,7 +44,7 @@
             <persName>Father</persName>
             <sex value="M">Male</sex>
             <affiliation type="loyalty">Patriot</affiliation>
-            <residence>Yonge's Island</residence>
+            <residence ref="place001">Yonge's Island</residence>
          </person>
          <person xml:id="person004">
             <persName>my sister</persName>
@@ -68,34 +68,52 @@
             <persName>Sarah Clifford Yonge</persName>
             <sex value="F">Female</sex>
             <affiliation type="loyatly"></affiliation>
-            <residence>Yonge's Island</residence>
+            <residence ref="#place001">Yonge's Island</residence>
          </person>
       </listPerson>
       <listPlace>
          <place xml:id="place001">
             <placeName>Yonge's Island</placeName>
-            <region>South Carolina</region>
+            <region type="colony">South Carolina</region>
+            <location type="geopolitical">
+               <offset>South</offset>
+            </location>
          </place>
          <place xml:id="place002">
             <placeName>Wadmalaw</placeName>
-            <region>South Carolina</region>
+            <region type="colony">South Carolina</region>
+            <location type="geopolitical">
+               <offset>South</offset>
+            </location>
          </place>
          <place xml:id="place003">
             <placeName>Charlestown</placeName>
-            <region>South Carolina</region>
+            <region type="colony">South Carolina</region>
+            <location type="geopolitical">
+               <offset>South</offset>
+            </location>
             <note>Takes place during <name type="event">Siege of Charleston</name> in <date>1780</date> during the <name type="event">American Revolution</name></note>
          </place>  
          <place xml:id="place004">
             <placeName>Georgia State</placeName>
-            <region>Georgia</region>
+            <region type="colony">Georgia</region>
+            <location type="geopolitical">
+               <offset>South</offset>
+            </location>
          </place>
          <place xml:id="place005">
             <placeName>Beaufort</placeName>
-            <region>South Carolina</region>
+            <region type="colony">South Carolina</region>
+            <location type="geopolitical">
+               <offset>South</offset>
+            </location>
          </place>
          <place xml:id="place006">
             <placeName>Ashepoo</placeName>
-            <region>South Carolina</region>
+            <region type="colony">South Carolina</region>
+            <location type="geopolitical">
+               <offset>South</offset>
+            </location>
          </place>    
       </listPlace>
       <listOrg>
