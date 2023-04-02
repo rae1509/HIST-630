@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>My Standoff Markup for Eliza Wilkinson Corpus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Encoded by
+            <name>
+               <forename>Regan</forename> 
+               <surname>Murr</surname>
+            </name>
+            on
+            <date>March 3, 2023</date>
+            for Digital Methods for Historical Research, Spring 2023
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <standOff>
+      <listPerson>
+         <person xml:id="person001">
+           <persName>Mrs. Wilkinson</persName>
+           <persName>Eliza W.</persName>
+           <persName>Eliza Yonge Wilkinson</persName>
+           <affiliation type="loyalty">Patriot</affiliation>
+           <sex value="F">Female</sex>
+           <residence ref="#place001">Yonge's Island</residence>
+         </person>
+         <person xml:id="person002">
+            <persName>Miss M.P.</persName>
+            <persName>Mary Porcher</persName>
+            <sex value="F">Female</sex>
+         </person>
+         <person xml:id="person003">
+            <persName>Francis Yonge</persName>
+            <persName>Father</persName>
+            <sex value="M">Male</sex>
+            <affiliation type="loyalty">Patriot</affiliation>
+            <residence ref="place001">Yonge's Island</residence>
+            <occupation>planter</occupation>
+         </person>
+         <person xml:id="person004">
+            <persName>my sister</persName>
+            <persName>My sister Yonge</persName>
+            <sex value="F">Female</sex>
+            <affiliation type="loyalty">Patriot</affiliation>
+         </person>
+         <person xml:id="person005">
+            <persName>my sister-in-law</persName>
+            <persName>my sister Smilie></persName>
+            <sex value="F">Female</sex>
+            <affiliation type="loyalty">Patriot</affiliation>
+         </person>
+         <person xml:id="person006">
+            <persName>Mr. Smilie</persName>
+            <sex value="M">Male</sex>
+            <affiliation type="loyalty">Patriot</affiliation>
+            <occupation>planter</occupation>
+         </person>
+         <person xml:id="person007">
+            <persName>Mother</persName>
+            <persName>Sarah Clifford Yonge</persName>
+            <sex value="F">Female</sex>
+            <affiliation type="loyatly"></affiliation>
+            <residence ref="#place001">Yonge's Island</residence>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="place001">
+            <placeName>Yonge's Island</placeName>
+            <region type="colony">South Carolina</region>
+            <location type="geopolitical">
+               <offset>South</offset>
+            </location>
+         </place>
+         <place xml:id="place002">
+            <placeName>Wadmalaw</placeName>
+            <region type="colony">South Carolina</region>
+            <location type="geopolitical">
+               <offset>South</offset>
+            </location>
+         </place>
+         <place xml:id="place003">
+            <placeName>Charlestown</placeName>
+            <region type="colony">South Carolina</region>
+            <location type="geopolitical">
+               <offset>South</offset>
+            </location>
+            <note>Takes place during <name type="event">Siege of Charleston</name> in <date>1780</date> during the <name type="event">American Revolution</name></note>
+         </place>  
+         <place xml:id="place004">
+            <placeName>Georgia State</placeName>
+            <region type="colony">Georgia</region>
+            <location type="geopolitical">
+               <offset>South</offset>
+            </location>
+         </place>
+         <place xml:id="place005">
+            <placeName>Beaufort</placeName>
+            <region type="colony">South Carolina</region>
+            <location type="geopolitical">
+               <offset>South</offset>
+            </location>
+         </place>
+         <place xml:id="place006">
+            <placeName>Ashepoo</placeName>
+            <region type="colony">South Carolina</region>
+            <location type="geopolitical">
+               <offset>South</offset>
+            </location>
+         </place>    
+      </listPlace>
+      <listOrg>
+         <org xml:id="org001">
+            <orgName>British troops</orgName>
+            <desc>British troops invaded and began a siege of Charleston during the <name type="event">American Revolution</name> in <date>1780</date></desc>         </org>
+         <org xml:id="org002">
+            <orgName>Southern troops</orgName>
+            <desc><affiliation type="loyalty">Patriot</affiliation> soldiers attempting to defend <settlement type="city">Charleston</settlement> and the surrounding area</desc>
+         </org>
+      </listOrg>
+   </standOff>
+</TEI>
