@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter I of Eliza Wilkinson, during the invasion and possession of Charleston, S.C., by the British in the Revolutionary War</title>
+            <author>Eliza Yonge Wilkinson</author>
+            <editor>Caroline Howard Gilman</editor>
+            <respStmt>
+               <resp>encoded by</resp>
+               <name>Regan Murr</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Digital Methods for Historical Research, Spring 2023</p>
+         </publicationStmt>
+         <sourceDesc>
+           <bibl>
+              <title>Letters of Eliza Wilkinson, during the invasion and possession of Charleston, S.C., by the British in the Revolutionary War</title>
+              <author>
+               <name>
+                  <forename>Eliza</forename> 
+                  <name type="maiden">Yonge</name>
+                  <surname>Wilkinson</surname>
+               </name>              
+              </author>
+              <editor>
+                 <name>
+                    Caroline Howard Gilman
+                 </name>
+              </editor>
+              <publisher>S. Colman</publisher>
+              <pubPlace>New York</pubPlace>
+              <date>1839</date>
+              <availability>
+                 <p>Text derived and available from Internet Archive: https://archive.org/details/lettersofelizawi00wilk/page/20/mode/2up</p>
+              </availability>
+           </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>This text represents the first letter written in Caroline Gilman's compilation of Eliza Wilkinson's letters during the American Revolution. It details Wilkinson's experiences as the British attacked South Carolina and laid siege to Charleston in 1780. </p>
+        </projectDesc>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+       <body>
+          <div type="letter">
+            <head>Introductory remarks. British outrages at the North. A Negro 
+            woman announces the approach of the enemy within 
+               <placeName ref="#placename001">
+                  <offset>five miles of </offset>
+                  Yonge's Island. 
+               </placeName>
+            Terror of the women. 
+               <persName ref="#person001">
+                   Mrs. Wilkinson
+               </persName> 
+            goes to 
+               <placeName>
+                  <settlement type="island" ref="#place002">Wadmalaw</settlement>
+               </placeName>
+            . Distress at leaving her old father. Meets 
+            a boat-load of fugitive women and children on their way to 
+               <placeName>
+                  <settlement type="city" ref="#place003">Charles-town,</settlement>
+               </placeName>
+            </head>
+             <opener>
+                <salute>To 
+                  <persName ref="#person002">Miss M P.</persName>               
+                </salute> 
+                <dateline>
+                   <placeName ref="#place001">Yonge's Island,</placeName> 
+                   <date>1782.</date>
+                </dateline>
+             </opener>
+             <p>As I mean never to forget the <emph rend="italic">loving-kindness</emph> and <emph rend="italic">ten- 
+                der mercies</emph> of the renowned Britons while among us, in 
+                the ever-memorable 
+                <date>year 1779,</date>
+                I shall transmit you a 
+                brief account of their <emph rend="italic">polite</emph> behavior to my 
+                <persName ref="#person003">Father</persName> 
+                and 
+                family, where you will find me sufficiently punished for 
+                being something of an unbeliever heretofore. You 
+                know we had always heard most terrible accounts of 
+                the actions of the 
+                <orgName type="military" ref="#org001">British troops</orgName>
+                at the northward; 
+                but, (fool that I was,) I thought they must be exaggerat- 
+                ed, for I could not believe that a nation so famed for 
+                humanity, and many other virtues, should, in so short a 
+                time, divest themselves of even the least trace of what 
+                they once were. </p>
+             <p>Surely, said I, they can't, in so short a time, have 
+                commenced savages, and lost those virtues which have 
+                distinguished them from other nations. Yet, sometimes, 
+                when I heard fresh accounts of their cruelty to our 
+                Northern brethren when in their power, I could not re- 
+                press my indignation against the barbarous, hard-hearted 
+                Britons, (how changed their character!) and believed, or 
+                almost believed, what I had heard of them. I say <emph rend="italic">almost</emph>, 
+                for I was so infatuated with what I had formerly heard 
+                and read of Englishmen, that I thought humanity, and 
+                every manly sentiment, were their inherent qualities; — 
+                though I cannot but say that, much as I had admired 
+                the former lustre of the British character, my soul 
+                shrunk from the thought of having any communication 
+                with a people who had left their homes with a direct in- 
+                tention to imbrue their hands in the blood of my beloved 
+                countrymen, or deprive them of their birthright, Liberty 
+                and property. The thought alarmed me, shocked me. 
+                I began to look on the Britons in earnest as enemies.</p>
+             <p>At length I heard they had got possession of the 
+                <placeName>
+                   <region type="state" ref="#place004">Georgia State</region>
+                </placeName>
+                , and used the inhabitants cruelly, paying 
+                no respect to age or sex; but then, again, I heard to the 
+                contrary, that their behavior to the ladies was unex- 
+                ceptionable. I did not know what to think, much less 
+                what to do, should they invade our State, which was 
+                daily expected.</p>
+             <p>Thousands would I have given to have been in any 
+                part of the globe where I might not see them, or to have 
+                been secure from the impending evils, which were ready 
+                to burst over our heads.</p>
+             <p>I was in 
+               <placeName>
+                  <settlement type="city" ref="#place003">Charlestown</settlement>
+               </placeName> 
+                when we heard that a large 
+                party of them had landed somewhere 
+               <placeName>
+                  <offset>near</offset> 
+                  <settlement type="city" ref="#place005">Beaufort.</settlement>
+               </placeName> 
+                I saw several detachments of our
+                <orgName type="military" ref="#org002">Southern troops</orgName> 
+                leave 
+                town to oppose the invaders of their country. They 
+                marched with the greatest alacrity imaginable, not re- 
+                garding the weather, though the rain poured down inces- 
+                santly upon them. I cannot describe my feelings upon 
+                this sight — gratitude, affection, and pity for my country- 
+                men filled my heart and my eyes, which pursued them 
+                until out of sight, and then every good wish attended 
+                them. However, it was not long before our little band 
+                of patriots returned to their homes in triumph, excepting 
+                a few, who had sealed the cause with their blood. Peace 
+                to their ashes, and everlasting happiness to their immor- 
+                tal part.</p>
+             <p>
+                <quote> "Well have they perished — -for in fight they fell."</quote> 
+                I think old 
+                <persName>Priam</persName> 
+                says this of his sons, who fell at the siege of 
+                <placeName>
+                   <settlement type="city">Troy.</settlement>
+                </placeName>
+                But who can forbear the tear of sympa- 
+                thy for the distressed families, who are left behind to 
+                mourn the fall of those they highly valued, and from 
+                whom they derived their support ? Pitiable reflection! 
+                <quote>"How seldom do the rich feel the distresses of the poor, 
+                and in the midst of conquest and acclamation, who re- 
+                gardeth the tears and afflictions of those who have lost 
+                their friends in the public?"</quote>
+             </p>
+             <p>Now, the time drew near when this State was to have 
+                her day of suffering in sympathy with her sister States. 
+                Oh, how I dreaded the approaching enemy! I had 
+                thoughts (with my other friends,) to go higher up the 
+                country to avoid them; but as my 
+                <persName ref="#person003">Father</persName>
+                , with many 
+                others of my relations, had not conveniences ready to car- 
+                ry off their effects with them, and as the enemy aproach- 
+                ed rapidly, they agreed to stay. It was a melancholy 
+                sight to see such crowds of helpless, distressed women, 
+                weeping for husbands, brothers, or other near relations 
+                and friends, who were they knew not where, whether 
+                dead or alive. When the enemy were at 
+                <placeName>
+                   <district type="plantation" ref="#person006">Ashepoo,</district>
+                </placeName> 
+                or 
+                somewhere thereabouts, 
+                <persName ref="#person004">my sister</persName> 
+                and 
+                <persName ref="#person005">sister-in-law</persName>
+                were 
+                then at my 
+                <persName ref="#person003">Father's</persName>
+                , when one Sunday morning a negro 
+                wench, who had been out visiting, came running home 
+                in a violent hurry, informing us that a party of British 
+                horse were then at 
+                <persName> Mr. W.'s,</persName> 
+                not above five or six miles 
+                from us. </p>
+             <p>A boy on the road had informed our servant of the 
+                approach of the enemy. This created such confusion 
+                and distress among us all as I cannot describe. A boat 
+                was immediately pushed off. 
+                <persName ref="#person004">
+                   My sister 
+                   <surname>Yonge</surname> 
+                </persName>
+                <persName ref="#person005"> 
+                   , my sis-ter 
+                   <surname> Smilie,</surname> 
+                </persName>
+                and myself, were desirous of putting the evil 
+                day afar off; so we went over the river to 
+                <persName ref="#person006">
+                   <addName type="honorific">Mr. </addName>
+                   <surname>Smilie's.</surname>
+                </persName>
+                <persName ref="#person003">Father</persName> 
+                and 
+                <persName ref="#person007">Mother</persName> 
+                ventured to stay at home. Melan- 
+                choly were the adieus on both sides. We had got but a 
+                small distance from the house when we met another lady, 
+                who, upon receiving the like information, had walked 
+                about two miles, (if not more,) to 
+                <persName ref="#person003">Father's</persName>. 
+                She joined us 
+                and away we went, often looking back, with watery 
+                eyes, to our 
+                <persName ref="#person003">Father's</persName> 
+                dwelling, thinking, at the same time, 
+                that in all probability, even while we were looking, he 
+                might be suffering all the insults and cruelties that a 
+                remorseless gang of barbarians could inflict. These 
+                thoughts drew sighs and tears from us; however, we 
+                made the best of it, and endeavored to console one 
+                another the best we could; but poor was that consola- 
+                tion, you may think.</p>
+             <p>We had but just got over, when a scene presented it- 
+                self to us, enough to move the hardest heart in the Brit- 
+                ish army could they have seen it. This was a large 
+                boat-load of women and children on their way to 
+                <placeName>
+                   <settlement type="city" ref="#place003">Charlestown,</settlement>
+                </placeName> 
+                as that place promised more safety than 
+                any other. They called at 
+                <persName ref="#person006">
+                   <addName type="honorific">Mr.</addName>
+                   <surname>Smilie's</surname>
+                </persName>
+                , and staid a day 
+                or two. I pitied them all greatly, (though we were 
+                much in the same situation;) one lady especially, who 
+                had seven children, and one of them but a fortnight old ; 
+                thus, in her weakly situation, to venture her life and 
+                that of her babe, rather than fall into the hands of an 
+                enemy, whose steps have been marked with cruelty and 
+                oppression. Surely, if the British knew the misery they 
+                occasion, they would abate their rigor, and blush to think 
+                that the name of Englishman, (once so famous among 
+                the Fair,) should now produce terror and dismay in every 
+                female breast. I'll now lay by my pen — Farewell.</p>
+             <p>I will proceed by and bye with my narrative, for the 
+                various scenes I've been witness to are so much in my 
+                head, that I shall not want subjects to employ my pen for 
+                some time.</p>
+             <closer>
+               <salute>Once more adieu.</salute>                
+               <signed>
+                  <persName ref="#person001">Eliza W.</persName>
+               </signed>
+             </closer>
+          </div>
+      </body>
+  </text>
+</TEI>
