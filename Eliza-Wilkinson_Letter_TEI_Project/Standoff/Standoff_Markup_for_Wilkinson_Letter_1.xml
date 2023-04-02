@@ -45,6 +45,7 @@
             <sex value="M">Male</sex>
             <affiliation type="loyalty">Patriot</affiliation>
             <residence ref="place001">Yonge's Island</residence>
+            <occupation>planter</occupation>
          </person>
          <person xml:id="person004">
             <persName>my sister</persName>
@@ -62,6 +63,7 @@
             <persName>Mr. Smilie</persName>
             <sex value="M">Male</sex>
             <affiliation type="loyalty">Patriot</affiliation>
+            <occupation>planter</occupation>
          </person>
          <person xml:id="person007">
             <persName>Mother</persName>
