@@ -30,6 +30,22 @@
           <attDef ident="ref" mode="change" usage="req"/>   
         </attList>
       </elementSpec>
+      <elementSpec ident="placeName" module="namesdates" mode="change">
+        <content>
+          <textNode/>
+        </content>
+        <attList>
+          <attDef ident="ref" mode="change" usage="req"/>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="orgName" module="namesdates" mode="change">
+        <content>
+          <textNode/>
+        </content>
+        <attList>
+          <attDef ident="ref" mode="change" usage="req"></attDef>
+        </attList>
+      </elementSpec>
       <elementSpec ident="p" module="core" mode="change">
         <content>
           <sequence preserveOrder="false">
