@@ -56,6 +56,21 @@
           </sequence>
         </content>
       </elementSpec>
+      <elementSpec ident="settlement" module="namesdates" mode="change">
+        <attList>
+          <attDef ident="settlement" mode="change" usage="req">
+            <datatype>
+              <dataRef key="data.enumerated"/>
+            </datatype>
+            <valList>
+              <valItem ident="island">
+                <gloss>island</gloss>
+                <desc>Indicates that the settlement is located on an island near Charleston, South Carolina</desc>
+              </valItem>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
     </body>
   </text>
 </TEI>
