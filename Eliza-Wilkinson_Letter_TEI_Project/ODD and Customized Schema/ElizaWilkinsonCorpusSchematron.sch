@@ -8,9 +8,8 @@
            <sch:assert test=". = '#CHG'">This @resp attribute must be #CHG".</sch:assert>
         </sch:rule>
         <sch:rule context="tei:persName/@ref">
-            <sch:let name="personIndex"
-value="doc('https://github.com/rae1509/HIST-630/blob/main/Eliza-Wilkinson_Letter_TEI_Project/Standoff/Standoff_Markup_for_Wilkinson_Letter_1.xml')"></sch:let>
-            <sch:let name="personURIs" value="$personIndex//tei:person/@ref"></sch:let>
+            <sch:let name="personIndex"       value="doc('https://raw.githubusercontent.com/rae1509/HIST-630/main/Eliza-Wilkinson_Letter_TEI_Project/Standoff/Standoff_Markup_for_Wilkinson_Letter_1.xml')"/>
+            <sch:let name="personURIs" value="$personIndex//tei:person/@ref"/>
             <sch:assert test="
               every $i in .
               satisfies $i = '$personURIS'">
