@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../ODD%20and%20Customized%20Schema/ElizaWilkinsonCorpusSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader resp="#CHG">
       <fileDesc>
@@ -72,7 +72,7 @@
             </head>
              <opener>
                 <salute>To 
-                  <persName ref="#person002">Miss M P.</persName>               
+                  <persName ref="#person002">Miss M P.</persName>           
                 </salute> 
                 <dateline>
                    <placeName ref="#place001">Yonge's Island,</placeName> 
