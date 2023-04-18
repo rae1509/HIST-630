@@ -61,13 +61,13 @@
                    Mrs. Wilkinson
                </persName> 
             goes to 
-               <placeName>
-                  <settlement type="island" ref="#place002">Wadmalaw</settlement>
+               <placeName ref="#place002">
+                  <settlement type="island">Wadmalaw</settlement>
                </placeName>
             . Distress at leaving her old father. Meets 
             a boat-load of fugitive women and children on their way to 
-               <placeName>
-                  <settlement type="city" ref="#place003">Charles-town,</settlement>
+               <placeName ref="#place003">
+                  <settlement type="city">Charles-town,</settlement>
                </placeName>
             </head>
              <opener>
@@ -118,8 +118,8 @@
                 and property. The thought alarmed me, shocked me. 
                 I began to look on the Britons in earnest as enemies.</p>
              <p>At length I heard they had got possession of the 
-                <placeName>
-                   <region type="state" ref="#place004">Georgia State</region>
+                <placeName ref="#place004">
+                   <region type="state">Georgia State</region>
                 </placeName>
                 , and used the inhabitants cruelly, paying 
                 no respect to age or sex; but then, again, I heard to the 
@@ -132,14 +132,14 @@
                 been secure from the impending evils, which were ready 
                 to burst over our heads.</p>
              <p>I was in 
-               <placeName>
-                  <settlement type="city" ref="#place003">Charlestown</settlement>
+               <placeName ref="#place003">
+                  <settlement type="city">Charlestown</settlement>
                </placeName> 
                 when we heard that a large 
                 party of them had landed somewhere 
-               <placeName>
+               <placeName ref="#place005">
                   <offset>near</offset> 
-                  <settlement type="city" ref="#place005">Beaufort.</settlement>
+                  <settlement type="city">Beaufort.</settlement>
                </placeName> 
                 I saw several detachments of our
                 <orgName type="military" ref="#org002">Southern troops</orgName> 
@@ -187,8 +187,8 @@
                 weeping for husbands, brothers, or other near relations 
                 and friends, who were they knew not where, whether 
                 dead or alive. When the enemy were at 
-                <placeName>
-                   <district type="plantation" ref="#place006">Ashepoo,</district>
+                <placeName ref="#place006">
+                   <district type="plantation">Ashepoo,</district>
                 </placeName> 
                 or 
                 somewhere thereabouts, 
@@ -248,8 +248,8 @@
                 self to us, enough to move the hardest heart in the Brit- 
                 ish army could they have seen it. This was a large 
                 boat-load of women and children on their way to 
-                <placeName>
-                   <settlement type="city" ref="#place003">Charlestown,</settlement>
+                <placeName ref="#place003">
+                   <settlement type="city">Charlestown,</settlement>
                 </placeName> 
                 as that place promised more safety than 
                 any other. They called at 
