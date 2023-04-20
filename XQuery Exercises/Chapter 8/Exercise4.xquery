@@ -1,21 +1,23 @@
 xquery version "3.1";
 
-declare function local:is-duplicate ($phrase as xs:string?) as xs:boolean
+declare variable $sentence := "When in the course of human events events";
+
+declare function local:is-duplicate ($phrase as xs:string?) as xs:string
 
 {
 
-let $all-letters-as-codepoints := fn:string-to-codepoints($phrase)
-let $first-letter := $all-letters-as-codepoints [1]
-let $last-letter := $all-letters-as-codepoints [last ()]
+let $tokens:= fn:lower-case($phrase) => fn:tokenize (" ")
+let $first-word := $tokens [1]
+let $next-word := $tokens [2]
 return 
-    (: Base case 1: Words match; duplicate; so yes!:)
-    if (fn:duplicate($first-letter))then true()
-    (: Base case 2: Words do not match, so no; false.:)
-    else if ($first-letter ne $last-letter)then false ()
+    if (fn:empty(($next-word)))then "There is no duplicate."
+    else if ($first-word eq $next-word)then 
+    fn:concat ("Found a duplicate'", $first-word," ' after word", $first-word ! position (), "of the phrase.")
     else
-    let $new-letters := $all-letters-as-codepoints
-    [position () = 2 to last () - 1]
-    let $new-phrase := fn:codepoints-to-string ($new-letters)
+    let $new-phrase := fn:string-join($tokens[position() = 2 to last ()], " ")
     return local:is-duplicate($new-phrase)
-    };
-    local:is-duplicate("of")
+    
+   };
+    
+ local:is-duplicate($sentence)
+  
