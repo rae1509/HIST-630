@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/rae1509/HIST-630/main/Eliza-Wilkinson_Letter_TEI_Project/ODD%20and%20Customized%20Schema/out/Eliza_Wilkinson_Letter_1_ODD.rng" type="application/xml"
 	schematypens="http://relaxng.ord/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/rae1509/HIST-630/main/Eliza-Wilkinson_Letter_TEI_Project/ODD%20and%20Customized%20Schema/out/Eliza_Wilkinson_Letter_1_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../ODD%20and%20Customized%20Schema/out/Eliza_Wilkinson_Letter_1_ODDrng.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader resp="#CHG">
       <fileDesc>
@@ -11,7 +11,7 @@
             <editor xml:id="CHG">Caroline Howard Gilman</editor>
             <respStmt>
                <resp>encoded by</resp>
-               <name>Regan Murr</name>
+               <persName>Regan Murr</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -21,11 +21,7 @@
            <bibl>
               <title>Letters of Eliza Wilkinson, during the invasion and possession of Charleston, S.C., by the British in the Revolutionary War</title>
               <author>
-               <name>
-                  <forename>Eliza</forename> 
-                  <name type="maiden">Yonge</name>
-                  <surname>Wilkinson</surname>
-               </name>              
+               <persName>Eliza Yonge Wilkinson</persName>              
               </author>
               <editor>
                  <persName>
@@ -51,23 +47,22 @@
        <body>
           <div type="letter">
             <head>Introductory remarks. British outrages at the North. A Negro 
-            woman announces the approach of the enemy within 
+            woman announces the approach of the enemy within five miles of 
                <placeName ref="#placename001">
-                  <offset>five miles of </offset>
-                  Yonge's Island. 
-               </placeName>
+                  Yonge's Island.
+               </placeName> 
             Terror of the women. 
                <persName ref="#person001">
                    Mrs. Wilkinson
                </persName> 
             goes to 
                <placeName ref="#place002">
-                  <settlement type="island">Wadmalaw</settlement>
+                  Wadmalaw
                </placeName>
             . Distress at leaving her old father. Meets 
             a boat-load of fugitive women and children on their way to 
                <placeName ref="#place003">
-                  <settlement type="city">Charles-town,</settlement>
+                  Charles-town,
                </placeName>
             </head>
              <opener>
@@ -119,7 +114,7 @@
                 I began to look on the Britons in earnest as enemies.</p>
              <p>At length I heard they had got possession of the 
                 <placeName ref="#place004">
-                   <region type="state">Georgia State</region>
+                  Georgia State
                 </placeName>
                 , and used the inhabitants cruelly, paying 
                 no respect to age or sex; but then, again, I heard to the 
@@ -133,13 +128,12 @@
                 to burst over our heads.</p>
              <p>I was in 
                <placeName ref="#place003">
-                  <settlement type="city">Charlestown</settlement>
+                  Charlestown
                </placeName> 
                 when we heard that a large 
-                party of them had landed somewhere 
+                party of them had landed somewhere near 
                <placeName ref="#place005">
-                  <offset>near</offset> 
-                  <settlement type="city">Beaufort.</settlement>
+                 Beaufort.
                </placeName> 
                 I saw several detachments of our
                 <orgName type="military" ref="#org002">Southern troops</orgName> 
@@ -162,7 +156,7 @@
                 <persName>Priam</persName> 
                 says this of his sons, who fell at the siege of 
                 <placeName>
-                   <settlement type="city">Troy.</settlement>
+                   Troy.
                 </placeName>
                 But who can forbear the tear of sympa- 
                 thy for the distressed families, who are left behind to 
@@ -188,7 +182,7 @@
                 and friends, who were they knew not where, whether 
                 dead or alive. When the enemy were at 
                 <placeName ref="#place006">
-                   <district type="plantation">Ashepoo,</district>
+                   Ashepoo,
                 </placeName> 
                 or 
                 somewhere thereabouts, 
@@ -210,18 +204,16 @@
                 and distress among us all as I cannot describe. A boat 
                 was immediately pushed off. 
                 <persName ref="#person004">
-                   My sister 
-                   <surname>Yonge</surname> 
+                   My sister Yonge 
                 </persName>
+                ,
                 <persName ref="#person005"> 
-                   , my sis-ter 
-                   <surname> Smilie,</surname> 
+                   my sis-ter Smilie, 
                 </persName>
                 and myself, were desirous of putting the evil 
                 day afar off; so we went over the river to 
                 <persName ref="#person006">
-                   <addName type="honorific">Mr. </addName>
-                   <surname>Smilie's.</surname>
+                   Mr. Smilie's.
                 </persName>
                 <persName ref="#person003">Father</persName> 
                 and 
@@ -249,13 +241,12 @@
                 ish army could they have seen it. This was a large 
                 boat-load of women and children on their way to 
                 <placeName ref="#place003">
-                   <settlement type="city">Charlestown,</settlement>
+                   Charlestown,
                 </placeName> 
                 as that place promised more safety than 
                 any other. They called at 
                 <persName ref="#person006">
-                   <addName type="honorific">Mr.</addName>
-                   <surname>Smilie's</surname>
+                   Mr. Smilie's
                 </persName>
                 , and staid a day 
                 or two. I pitied them all greatly, (though we were 
