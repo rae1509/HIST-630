@@ -42,7 +42,7 @@
               <sch:let name="personIDs" value="$StandoffpersonIndex//tei:person/@xml:id"/>
               <sch:let name="error" value="."/>
               <sch:assert test="/@ref = $personIDs">
-                <sch:value-of select="$error"/>Every persName element with a @ref attribute should have an @xml:id.
+                <sch:value-of select="$error">Every persName element with a @ref attribute should have an @xml:id.</sch:value-of>
                 <sch:value-of select="personIDs"/> 
               </sch:assert>
             </sch:rule> 
@@ -64,7 +64,7 @@
               <sch:let name="placeIDs" value="$StandoffplaceIndex//tei:place/@xml:id"/>
               <sch:let name="error" value="."/>
               <sch:assert test="/@ref = $placeIDs">
-                <sch:value-of select="$error"/> Every placeName element with a @ref attribute should have an @xml:id.
+                <sch:value-of select="$error"> Every placeName element with a @ref attribute should have an @xml:id. </sch:value-of>
                 <sch:value-of select="placeIDs"/> 
               </sch:assert>
             </sch:rule>
@@ -86,7 +86,7 @@
               <sch:let name="orgIDs" value="$StandofforgIndex//tei:org/@xml:id"/>
               <sch:let name="error" value="."/>
               <sch:assert test="/@ref = $orgIDs">
-                <sch:value-of select="$error"/> Every orgName element with a @ref attribute should have an @xml:id.
+                <sch:value-of select="$error"> Every orgName element with a @ref attribute should have an @xml:id. </sch:value-of>
                 <sch:value-of select="orgIDs"/> 
               </sch:assert>
             </sch:rule> 
